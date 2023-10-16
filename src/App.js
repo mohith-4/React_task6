@@ -4,10 +4,11 @@ import './App.css';
 import Header from './components/Header';
 import HomeTabs from './components/HomeTabs';
 import Footer from './components/Footer';
+
 function App() {
   return (
     <div>
-    <div className="app">
+    <div className="app" style={{position:'sticky' , top:0}}>
       <header className="app-header">
         <img src={logo} className="logo" alt="logo"  height={30}/>
  

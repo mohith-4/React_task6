@@ -2,12 +2,19 @@ import React from 'react';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import "../Tabs.css";
 import ExperienceCards from '../components/ExperienceCards';
+import Timelinecolor from './Timelinecolor';
+ 
+
+
+
+
 function HomeTabs() 
 { 
   return <div class="fluid-container">
     <Tabs>
-    <TabList>
+    <TabList style={{position:'sticky', top:0 , zIndex:1}} >
       <Tab >About Me</Tab>
+      <Tab> Education</Tab>
       <Tab >Projects/Experience</Tab>
       <Tab >Achievements</Tab>
      
@@ -15,9 +22,13 @@ function HomeTabs()
     <TabPanel>
     <div>  Passionate for Machine Learning and Web Design. 
         <br/>Seeking opportunities to apply and further develop my skills in these fields.
-
-           
-             </div>
+    </div>
+    </TabPanel>
+    <TabPanel>
+      <div>
+      <Timelinecolor />
+          
+      </div>
     </TabPanel>
     <TabPanel>
       <ExperienceCards />
@@ -35,7 +46,7 @@ function HomeTabs()
             </tr>
 
             <tr>
-                <td> <h5>Advance Learning Algorithms</h5></td>
+                <td> <p>Advance Learning Algorithms</p></td>
                 <td><a href= "https://coursera.org/share/d1e97543aa56e05d50182505b6fb650b">Certificate</a></td>
             </tr>
             <tr>

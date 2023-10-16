@@ -2,6 +2,7 @@
   text-align: center;
   height: 100%;
   min-height: 100%;
+   
 }
 html{
   background: rgb(34,193,195);
@@ -28,6 +29,7 @@ body{
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: rgb(24, 22, 22);
+  position: sticky;
 }
 
 .app-link {
@@ -35,13 +37,17 @@ body{
 }
 
 .icons-list {
-  position: absolute;
+  position: fixed;
   display: inline-block;
   width: 100%;
   background-color: #64ffda;
   height: 7vh;
-  margin-bottom: 0;
-  padding-bottom: 0;
+  
+  margin-top: 35px;
+  padding-top: 0px;
+  bottom: 0;
+  z-index: 1;
+
 
 }
 
@@ -51,7 +57,7 @@ body{
     border-bottom: none;
     position: relative;
     list-style: none;
-    padding: 6px;
+    padding-top: 15px;
     cursor: pointer;
     flex-direction: column;
     text-align: center;
