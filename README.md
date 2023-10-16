@@ -1,3 +1,10 @@
+# My Portfolio
+
+All content in this repository, including text, images, and code, is protected by copyright. All rights are reserved. You may not use, reproduce, distribute, or modify the content without explicit permission from the owner Mohith.
+
+For licensing and usage inquiries, please contact the owner at suggalamohith@gmail.com .
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
