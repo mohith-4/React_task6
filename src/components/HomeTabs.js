@@ -20,9 +20,17 @@ function HomeTabs()
      
     </TabList>
     <TabPanel>
-    <div>  Passionate for Machine Learning and Web Design. 
-        <br/>Seeking opportunities to apply and further develop my skills in these fields.
+    <div id='about'>
+       <p>
+          Passionate for Machine Learning and Web Design. 
+          <br/>Seeking opportunities to apply and further develop my skills in these fields.
+          <br />Current student looking to join the workforce to gain real-world experience. Ability to complete tasks
+          on time in both individual and team settings. Dependable and reliable, ready to learn and grow with
+          your company.
+          <br />
+       </p> 
     </div>
+ 
     </TabPanel>
     <TabPanel>
       <div>

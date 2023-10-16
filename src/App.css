@@ -5,7 +5,7 @@
    
 }
 html{
-  background: rgb(34,193,195);
+  background: rgb(158, 243, 245);
 }
 
 body{
@@ -21,7 +21,7 @@ body{
 
 .app-header {
   background: rgb(34,193,195);
-  background: linear-gradient(0deg, rgba(34,193,195,0.9585959383753502) 0%, rgba(199,151,46,0.9081757703081232) 100%);
+  background: linear-gradient(0deg, rgba(110, 193, 195, 0.959) 0%, rgba(199,151,46,0.9081757703081232) 100%);
   max-height: 45vh;
   display: flex;
   flex-direction: column;
@@ -40,7 +40,7 @@ body{
   position: fixed;
   display: inline-block;
   width: 100%;
-  background-color: #64ffda;
+  background-color: #64d0ff;
   height: 7vh;
   
   margin-top: 35px;

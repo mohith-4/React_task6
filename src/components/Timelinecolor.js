@@ -35,7 +35,9 @@ export default function TimelineC() {
         <TimelineContent>
         <div id='cont'>
             <h3>Intermediate</h3>
-            <p>SreeVardhan Junior College, Hyderabad</p>
+            <p><b>Group</b>: M.P.C (Math, Physics,and Chemistry)</p>
+            <p>SreeVardhan Junior College</p>
+            <p>Hyderabad, Telangana</p>
             <p>2019-2021</p>
             <p><b>Percentage</b>: 97.2%</p>  </div>
         </TimelineContent>
@@ -48,7 +50,8 @@ export default function TimelineC() {
         <TimelineContent>
         <div id='cont'>
             <h3>Secondary Education</h3>
-            <p>Millennium Talent High School,Madhira, Telanagana</p>
+            <p>Millennium Talent High School</p>
+            <p>Madhira, Telanagana</p>
             <p>2018-2019</p>
             <p><b>GPA</b> : 10</p>
             </div>
